@@ -1,6 +1,8 @@
 # AI-Powered-Weather-Predictor
 A LSTM model based AI-Powered Weather Predictor
 
+### Maintainer - @Deadpool2000
+
 This project is an AI-powered weather prediction system that fetches real-time weather data using the OpenWeatherMap API and predicts future temperatures using an **LSTM (Long Short-Term Memory) neural network**.
 
 ## 🚀 Features
