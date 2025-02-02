@@ -1,0 +1,8 @@
+flask
+requests
+pandas
+numpy
+scikit-learn
+tensorflow
+keras
+matplotlib

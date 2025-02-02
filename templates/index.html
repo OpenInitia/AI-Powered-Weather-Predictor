@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Predictor</title>
+</head>
+<body>
+    <h2>Enter Weather Details</h2>
+    <form id="weatherForm">
+        <label>Temperature (°C):</label>
+        <input type="number" id="temperature" required><br>
+        <label>Humidity (%):</label>
+        <input type="number" id="humidity" required><br>
+        <label>Pressure (hPa):</label>
+        <input type="number" id="pressure" required><br>
+        <button type="submit">Predict</button>
+    </form>
+    <h3 id="result"></h3>
+
+    <script>
+        document.getElementById("weatherForm").onsubmit = async function(event) {
+            event.preventDefault();
+            let temp = document.getElementById("temperature").value;
+            let humidity = document.getElementById("humidity").value;
+            let pressure = document.getElementById("pressure").value;
+
+            let response = await fetch("/predict", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ "temperature": temp, "humidity": humidity, "pressure": pressure })
+            });
+
+            let data = await response.json();
+            document.getElementById("result").innerText = "Predicted Temperature: " + data.predicted_temperature + "°C";
+        }
+    </script>
+</body>
+</html>
