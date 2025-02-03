@@ -17,7 +17,7 @@ This project is an AI-powered weather prediction system that fetches real-time w
 ## 📁 Project Directory Structure
 
 ```
-weather-predictor/
+AI-Powered-Weather-Predictor/
 │── lib/                         # External helper functions
 │   ├── openweather.py            # Fetch weather data from OpenWeatherMap API
 │
@@ -41,8 +41,8 @@ weather-predictor/
 
 ### 1️⃣ **Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/weather-predictor.git
-cd weather-predictor
+git clone https://github.com/OpenInitia/AI-Powered-Weather-Predictor
+cd AI-Powered-Weather-Predictor
 ```
 
 ### 2️⃣ **Set Up a Virtual Environment**
