@@ -1,7 +1,19 @@
+<div align="center">
+
 # AI-Powered-Weather-Predictor
 A LSTM model based AI-Powered Weather Predictor
 
-### Maintainer - @Deadpool2000
+Maintainer - [@Deadpool2000](https://github.com/Deadpool2000)
+
+[![GitHub language](https://img.shields.io/github/languages/top/OpenInitia/AI-Powered-Weather-Predictor)](https://github.com/OpenInitia/AI-Powered-Weather-Predictor)
+[![GitHub Repo stars](https://img.shields.io/github/stars/OpenInitia/AI-Powered-Weather-Predictor)](https://img.shields.io/github/stars/OpenInitia/AI-Powered-Weather-Predictor)
+[![GitHub issues](https://img.shields.io/github/issues/OpenInitia/AI-Powered-Weather-Predictor)](https://github.com/OpenInitia/AI-Powered-Weather-Predictor/issues)
+[![GitHub contributors](https://img.shields.io/github/contributors/OpenInitia/AI-Powered-Weather-Predictor)](https://github.com/OpenInitia/AI-Powered-Weather-Predictor/graphs/contributors)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/OpenInitia/AI-Powered-Weather-Predictor)](https://github.com/OpenInitia/AI-Powered-Weather-Predictor/pulls)
+[![GitHub license](https://img.shields.io/github/license/OpenInitia/AI-Powered-Weather-Predictor)](https://github.com/OpenInitia/AI-Powered-Weather-Predictor/blob/main/LICENSE)
+
+
+</div>
 
 This project is an AI-powered weather prediction system that fetches real-time weather data using the OpenWeatherMap API and predicts future temperatures using an **LSTM (Long Short-Term Memory) neural network**.
 
